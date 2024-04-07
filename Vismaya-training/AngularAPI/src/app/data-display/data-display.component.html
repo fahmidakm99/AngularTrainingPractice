@@ -1,0 +1,8 @@
+<p>data-display works!</p>
+<ul>
+    @for( post of data; track post.id){
+    <li>{{ post.title }}</li>
+    <li>{{ post.body }}</li>
+    }
+  </ul>
+  <p>{{ error }}</p>
