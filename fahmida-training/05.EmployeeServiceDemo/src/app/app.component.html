@@ -1,0 +1,19 @@
+<h1>Employee Data :</h1>
+<app-employee></app-employee>
+<h1>person name :</h1>
+<app-person></app-person>
+<h1>header :</h1>
+<app-header [text]="title"></app-header>
+<h1>binding :</h1>
+<app-binding-test></app-binding-test><br>
+<h1><u>new changes</u></h1>
+<app-person-env (personCreate)="onPersonCreated($event)"></app-person-env>
+
+<li *ngFor ="let person of persons">
+    <ul>
+        {{person}}
+    </ul>
+</li>
+
+<br>
+<app-my-emp-service></app-my-emp-service>
