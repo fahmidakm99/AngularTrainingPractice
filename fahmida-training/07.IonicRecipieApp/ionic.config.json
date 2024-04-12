@@ -1,0 +1,7 @@
+{
+  "name": "IonicRecipieApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
