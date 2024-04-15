@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="base"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+<ion-content>
+  <ion-list>
+    <ion-list>
+      <ion-item>
+        <ion-label>First Name</ion-label>
+        <ion-input placeholder="First Name"></ion-input>
+      </ion-item>
+      <br />
+      <ion-item>
+        <ion-label>Last Name</ion-label>
+        <ion-input placeholder="Last Name"></ion-input>
+      </ion-item>
+      <br />
+
+      <ion-item>
+        <ion-input placeholder="User Name"></ion-input>
+      </ion-item>
+      <br />
+
+      <ion-item>
+        <ion-input type="password" value="password"></ion-input>
+      </ion-item>
+      <br />
+      <ion-button expand="full" color="danger" (click)="register()">Register</ion-button>
+    </ion-list>
+  </ion-list>
+</ion-content>
